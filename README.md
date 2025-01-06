@@ -2,11 +2,11 @@
 
 This README explains the structure and functionality of the **Home Page** of  React application. It provides an overview of the components, their interactions, and how I"m  contribute to the user interface.
 
-## Home Page Overview
+                                  ## Home Page Overview
 
 The Home Page serves as the landing page for the application. It displays a clean, user-friendly interface with various sections, such as navigation, featured content, and Wedding Programs, Wedding Attendin Form, Wedding Progrma Scheduled and Footer etc.
 
-## Key Components of the Home Page
+                                 ## Key Components of the Home Page
 
 1. **Header**  
    The header includes the logo, navigation links, and a user authentication button (not Added). It provides easy navigation for users to move between different sections of the application.
@@ -43,7 +43,7 @@ E  **Countdown Timer**
    - **Contact Information**: (optional) Email or phone number for customer support.
 
      
-                    ** Installation Instructions **
+                              ** Installation Instructions **
 # Prerequisites
 1 Install Node.js (LTS version recommended).
 Download from https://nodejs.org/.
@@ -80,7 +80,6 @@ This will open the app in your default browser at http://localhost:3000.
 Open the project folder in VS Code by running:
 code .
 
-
-
-Conclusion
+                            **Conclusion** 
+                            
 This project showcases a simple and responsive homepage built with React. The application can be extended with more features, such as user authentication, product categories, or dynamic content fetching from an API. You can modify and style the components as per your requirements.

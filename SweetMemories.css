@@ -1,0 +1,78 @@
+/* General styles for the component */
+.sweet-memories {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(135deg, #f9f7f6, #fdfcfb);
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Heading section styles */
+  .heading-section {
+    margin-bottom: 30px;
+  }
+  
+  .heading {
+    font-size: 3rem;
+    color: #2c3e50;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .subheading {
+    font-size: 1.5rem;
+    color: #7f8c8d;
+    margin: 10px 0;
+    font-weight: 300;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Image gallery styles */
+  .image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+  }
+  
+  /* Image container styles */
+  .image-container {
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .image-container:hover {
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Image styles */
+  .gallery-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 15px;
+  }
+  
+  .image-container:hover .gallery-image {
+    transform: scale(1.05);
+  }
+  
+  /* Background animation */
+  body {
+    animation: gradient-animation 10s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background: linear-gradient(135deg, #f9f7f6, #fdfcfb);
+    }
+    50% {
+      background: linear-gradient(135deg, #f0e3e2, #fbf9f6);
+    }
+    100% {
+      background: linear-gradient(135deg, #f9f7f6, #fdfcfb);
+    }
+  }
+  
